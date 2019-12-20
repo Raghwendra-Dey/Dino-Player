@@ -7,6 +7,7 @@ import cv2
 import pyautogui
 import numpy as np
 import time
+import sys
 
 def match(contours, prev_contours, img):
 	for cnt in contours:	
@@ -46,7 +47,7 @@ def match(contours, prev_contours, img):
 
 			
 
-webbrowser.open('http://google.com')  # Go to example.com
+webbrowser.get(sys.argv[1]).open('http://google.com')  # Go to example.com
 
 time.sleep(2)
 im0 = pyautogui.screenshot('my_screenshot.png')
