@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.7-brightgreen)](https://python.org)
 [![Pyautogui](https://img.shields.io/badge/pyautogui-0.9.48%20-brightgreen)](https://pypi.org/project/PyAutoGUI/)
 
-<br>
+----------------------------------------------------------------------------
 
 
 DinoPlayer is the first step towards automating google's no internet dinosaur game.
