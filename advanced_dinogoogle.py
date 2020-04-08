@@ -39,7 +39,7 @@ def match(contours, prev_contours, img):
 			realx = x+540
 			newx = realx-speed
 			print("predicted: "+str(newx))
-			barrier = 570+30*(speed/80)
+			barrier = 560+40*(speed/80)
 			print(barrier)
 			if newx<barrier and y>40:
 				return True
@@ -47,7 +47,7 @@ def match(contours, prev_contours, img):
 
 			
 
-webbrowser.get(sys.argv[1]).open('http://google.com')  # Go to example.com
+webbrowser.open('http://google.com')  # Go to example.com
 
 time.sleep(2)
 im0 = pyautogui.screenshot('my_screenshot.png')
