@@ -1,4 +1,4 @@
-# DINO-PLAYER
+# DINO-PLAYER - By Debjox
 [![Python](https://img.shields.io/badge/python-3.7-brightgreen)](https://python.org)
 [![OpenCV version](https://img.shields.io/badge/opencv--python-3.4-brightgreen)](https://pypi.org/project/opencv-python/)
 [![Pyautogui](https://img.shields.io/badge/pyautogui-0.9.48%20-brightgreen)](https://pypi.org/project/PyAutoGUI/)
